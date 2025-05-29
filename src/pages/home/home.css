@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  gap: 30px;
 
   min-height: 700px;
   min-width: 700px;
@@ -11,6 +10,14 @@
   width: 50vw;
   margin-left: 25%;
   margin-right: 25%;
+}
+
+.pesquisa-div {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+
+  margin-top: -300px;
 }
 
 .title-h1 {
@@ -21,14 +28,33 @@
 .title-h2 {
   font-size: 3.1rem;
   font-weight: 100;
+  display: none;
 }
+.input-div {
+  display: flex;
+  gap: 10px;
+}
+.input-div button {
+  background-color: #ff8d23;
+  color: white;
+  font-size: 1.2rem;
 
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.input-div button:hover {
+  background-color: rgb(187, 127, 15);
+}
 #pesquisa {
   height: 50px;
   border-radius: 8px;
   border: 1px solid black;
   padding: 15px;
   font-size: 1.6rem;
+  width: 90%;
 }
 
 .btn-add {

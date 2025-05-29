@@ -1,22 +1,31 @@
 import { useState } from "react";
 import { Modal } from "../../components/window_modal/modal";
 import "./home.css";
+import { BlockUser } from "../../components/bloco-user/bloco-user";
 
 export function Home() {
   const [openModal, setOpenModal] = useState(false);
   return (
     <>
       <div className="container">
-        <h1 className="title-h1">Olá, seja bem vindo!</h1>
+        <div className="pesquisa-div">
+          <h1 className="title-h1">Olá, seja bem vindo!</h1>
 
-        <input
-          type="text"
-          name=""
-          id="pesquisa"
-          placeholder="Pesquise aqui..."
-        />
+          <div className="input-div">
+            <input
+              type="text"
+              name=""
+              id="pesquisa"
+              placeholder="Pesquise aqui..."
+            />
+            <button>Pesquisar</button>
+          </div>
 
-        <h2 className="title-h2">consulte a dívida dos seus clientes!</h2>
+          <h2 className="title-h2">consulte a dívida dos seus clientes!</h2>
+          <BlockUser />
+          <BlockUser />
+          <BlockUser />
+        </div>
         <button className="btn-add" onClick={() => setOpenModal(true)}>
           +
         </button>

@@ -1,0 +1,36 @@
+.infor-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 20px;
+
+  border: 1px solid black;
+  height: 150px;
+  border-radius: 8px;
+  padding: 90px 20px;
+}
+
+.infor-user h3 {
+  font-size: 2rem;
+}
+
+.infor-user p {
+  font-size: 1.6rem;
+}
+
+.btn-edit {
+  background-color: #ff8d23;
+  color: #ffffff;
+  font-size: 1.4rem;
+
+  height: 50px;
+  width: 120px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  position: relative;
+  left: 85%;
+}
