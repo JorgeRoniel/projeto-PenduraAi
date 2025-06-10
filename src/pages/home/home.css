@@ -6,7 +6,7 @@
 
   min-height: 700px;
   min-width: 700px;
-  height: 50vh;
+  height: 100vh;
   width: 50vw;
   margin-left: 25%;
   margin-right: 25%;
@@ -16,7 +16,6 @@
   display: flex;
   gap: 30px;
   flex-direction: column;
-
   margin-top: -300px;
 }
 
@@ -55,6 +54,17 @@
   padding: 15px;
   font-size: 1.6rem;
   width: 90%;
+}
+.scrool-area {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+.clients-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .btn-add {

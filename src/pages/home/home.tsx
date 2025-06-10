@@ -22,9 +22,15 @@ export function Home() {
           </div>
 
           <h2 className="title-h2">consulte a dívida dos seus clientes!</h2>
-          <BlockUser />
-          <BlockUser />
-          <BlockUser />
+          <div className="scrool-area">
+            <div className="clients-list">
+              <BlockUser />
+              <BlockUser />
+              <BlockUser />
+              <BlockUser />
+              <BlockUser />
+            </div>
+          </div>
         </div>
         <button className="btn-add" onClick={() => setOpenModal(true)}>
           +
