@@ -11,19 +11,26 @@
   padding: 90px 20px;
 }
 
-.infor-user h3 {
+.infor h3 {
   font-size: 2rem;
 }
 
-.infor-user p {
+.infor p {
   font-size: 1.6rem;
+}
+
+.infor {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
 }
 
 .buttons {
   display: flex;
+  justify-content: end;
   gap: 20px;
-  position: relative;
-  left: 75%;
+  width: 100%;
 }
 
 .btn-edit {
