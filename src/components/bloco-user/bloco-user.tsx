@@ -20,9 +20,14 @@ export function BlockUser() {
       </div>
       <Modal isOpen={openModal}>
         <div className="divida-content">
-          <h1>Valor</h1>
+          <button id="btn-close" onClick={() => setOpenModal(false)}>
+            X
+          </button>
+          <h1>Valor: R$ 0,00</h1>
           <div className="divida-values">
-            <label htmlFor="novo-valor">Digite o novo valor:</label>
+            <label htmlFor="novo-valor" id="label">
+              Digite o novo valor:
+            </label>
             <input type="number" name="novo-valor" id="novo-valor" />
           </div>
           <button className="btn-save">Salvar</button>

@@ -6,7 +6,7 @@ export function Navbar() {
         <button
           className="btn-navbar"
           onClick={() => {
-            alert("Sem funcionamento... (Ainda!)");
+            alert("Sem funcionamento... (Por enquanto!)");
           }}
         >
           sair

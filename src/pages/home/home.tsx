@@ -37,11 +37,11 @@ export function Home() {
         </button>
         <Modal isOpen={openModal}>
           <div className="form-divida">
-            <h1 className="title-h1">Cadastro de Cliente</h1>
             <button className="close-btn" onClick={() => setOpenModal(false)}>
               {" "}
               X{" "}
             </button>
+            <h1 className="title-h1">Cadastro de Cliente</h1>
             <div>
               <form action="">
                 <label className="label" htmlFor="nome">
