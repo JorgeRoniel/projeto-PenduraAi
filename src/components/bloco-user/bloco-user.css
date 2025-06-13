@@ -155,8 +155,47 @@
   background-color: #800202;
 }
 
+@media (max-width: 698px) {
+  .divida-content {
+    height: 60%;
+    width: 80%;
+  }
+
+  .divida-values {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #novo-valor {
+    min-width: 300px;
+    min-height: 20px;
+  }
+}
+
 @media (max-width: 488px) {
-  .infor-user {
-    max-height: 100px;
+  .divida-content {
+    height: 70%;
+    width: 90%;
+  }
+
+  .divida-values {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .divida-values label {
+    display: block;
+    width: 100%;
+  }
+
+  #novo-valor {
+    min-width: 300px;
+    min-height: 20px;
+  }
+
+  #btn-close {
+    margin-right: 30px;
   }
 }

@@ -27,7 +27,6 @@
 .title-h2 {
   font-size: 3.1rem;
   font-weight: 100;
-  display: none;
 }
 .input-div {
   display: flex;
@@ -56,6 +55,7 @@
   width: 90%;
 }
 .scrool-area {
+  display: none;
   max-height: 400px;
   overflow-y: auto;
   margin-top: 20px;
@@ -195,12 +195,33 @@
     font-size: 2rem;
     margin-left: 75%;
   }
+
+  .form-divida {
+    width: 70%;
+  }
+
+  .form-divida div {
+    width: 100%;
+  }
+
+  .input-form-divida {
+    min-width: 30px;
+  }
+
+  .close-btn {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 488px) {
+  .container {
+    min-width: 400px;
+  }
   .pesquisa-div {
-    margin-left: 10px;
-    margin-right: 30%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .input-div {
@@ -208,7 +229,8 @@
   }
 
   .scrool-area {
-    padding-right: 50px;
+    margin-top: 0;
+    padding-right: 0;
   }
 
   .title-h1 {
@@ -218,7 +240,11 @@
 
   .btn-add {
     margin-top: 2px;
-    margin-left: 350px;
+    margin-left: 330px;
     margin-bottom: 20px;
+  }
+
+  .form-divida {
+    width: 90%;
   }
 }
