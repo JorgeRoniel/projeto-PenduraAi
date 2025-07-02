@@ -55,7 +55,6 @@
   width: 90%;
 }
 .scrool-area {
-  display: none;
   max-height: 400px;
   overflow-y: auto;
   margin-top: 20px;
@@ -79,7 +78,7 @@
   box-shadow: 1px 1px 5px black;
 
   margin-left: 85%;
-  margin-top: 5%;
+  margin-top: 2%;
 
   transition-duration: 0.2s;
 }
@@ -142,6 +141,7 @@
   border-radius: 20px;
   background: rgb(235, 227, 227);
   padding: 10px;
+  width: 100%;
 }
 
 .btn-form {
@@ -175,7 +175,19 @@
 .close-btn:hover {
   background-color: #800202;
 }
+@media (max-width: 1330px) {
+  .form-divida div {
+    width: 100%;
+  }
 
+  .form-divida form {
+    width: 100%;
+  }
+
+  .input-form-divida {
+    min-width: 300px;
+  }
+}
 @media (max-width: 698px) {
   .pesquisa-div {
     padding: 5%;
