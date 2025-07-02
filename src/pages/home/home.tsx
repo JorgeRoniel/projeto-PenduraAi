@@ -50,7 +50,11 @@ export function Home() {
               id="pesquisa"
               placeholder="Pesquise aqui..."
             />
-            <button>Pesquisar</button>
+            <button
+              onClick={() => alert("Sem Funcionamento... (Por Enquanto!)")}
+            >
+              Pesquisar
+            </button>
           </div>
 
           <div className="scrool-area">
